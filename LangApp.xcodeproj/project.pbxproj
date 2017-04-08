@@ -7,13 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F85F3C7B1E4528BB00E0EC03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85F3C7A1E4528BB00E0EC03 /* AppDelegate.swift */; };
-		F85F3C7D1E4528BB00E0EC03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85F3C7C1E4528BB00E0EC03 /* ViewController.swift */; };
-		F85F3C801E4528BB00E0EC03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F85F3C7E1E4528BB00E0EC03 /* Main.storyboard */; };
+		01AD7AC404E84A6DE78AC777 /* Pods_LangApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AE6723FC0EDD30626CB7FD8 /* Pods_LangApp.framework */; };
+		3EE2B885C2997BAF9DCB9ED2 /* Pods_LangAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7A5DCD9EBC165A9DA3E9F7E /* Pods_LangAppUITests.framework */; };
+		4904067A62476664029DED0C /* Pods_LangAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7ED0A77A21C87853D495031 /* Pods_LangAppTests.framework */; };
 		F85F3C821E4528BB00E0EC03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F85F3C811E4528BB00E0EC03 /* Assets.xcassets */; };
-		F85F3C851E4528BB00E0EC03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F85F3C831E4528BB00E0EC03 /* LaunchScreen.storyboard */; };
 		F85F3C901E4528BB00E0EC03 /* LangAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85F3C8F1E4528BB00E0EC03 /* LangAppTests.swift */; };
 		F85F3C9B1E4528BB00E0EC03 /* LangAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85F3C9A1E4528BB00E0EC03 /* LangAppUITests.swift */; };
+		F8762F701E55115A00F7563C /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = F8762F6F1E55115A00F7563C /* Fonts */; };
+		F8762F721E55132500F7563C /* Ralyan.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8762F711E55132500F7563C /* Ralyan.ttf */; };
+		F897AF791E4C1BE300172136 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F897AF781E4C1BE300172136 /* GoogleService-Info.plist */; };
+		F8D2460B1E5F8E1D00D458F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D245E21E5F8E1C00D458F0 /* AppDelegate.swift */; };
+		F8D2460C1E5F8E1D00D458F0 /* BasicChinese.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D245E31E5F8E1C00D458F0 /* BasicChinese.swift */; };
+		F8D2460D1E5F8E1D00D458F0 /* BasicFrench.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D245E41E5F8E1C00D458F0 /* BasicFrench.swift */; };
+		F8D2460E1E5F8E1D00D458F0 /* BasicGerman.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D245E51E5F8E1C00D458F0 /* BasicGerman.swift */; };
+		F8D2460F1E5F8E1D00D458F0 /* BasicRalyan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D245E61E5F8E1C00D458F0 /* BasicRalyan.swift */; };
+		F8D246101E5F8E1D00D458F0 /* bg1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D245E71E5F8E1C00D458F0 /* bg1.swift */; };
+		F8D246111E5F8E1D00D458F0 /* bg2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D245E81E5F8E1C00D458F0 /* bg2.swift */; };
+		F8D246121E5F8E1D00D458F0 /* bg3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D245E91E5F8E1C00D458F0 /* bg3.swift */; };
+		F8D246131E5F8E1D00D458F0 /* br1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D245EA1E5F8E1C00D458F0 /* br1.swift */; };
+		F8D246141E5F8E1D00D458F0 /* br2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D245EB1E5F8E1C00D458F0 /* br2.swift */; };
+		F8D246151E5F8E1D00D458F0 /* br3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D245EC1E5F8E1C00D458F0 /* br3.swift */; };
+		F8D246161E5F8E1D00D458F0 /* br4.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D245ED1E5F8E1C00D458F0 /* br4.swift */; };
+		F8D246171E5F8E1D00D458F0 /* br5.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D245EE1E5F8E1C00D458F0 /* br5.swift */; };
+		F8D246181E5F8E1D00D458F0 /* ChineseRewardPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D245EF1E5F8E1C00D458F0 /* ChineseRewardPage.swift */; };
+		F8D246191E5F8E1D00D458F0 /* ChineseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D245F01E5F8E1C00D458F0 /* ChineseView.swift */; };
+		F8D2461A1E5F8E1D00D458F0 /* ChineseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D245F11E5F8E1C00D458F0 /* ChineseViewController.swift */; };
+		F8D2461B1E5F8E1D00D458F0 /* CourseClassCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D245F21E5F8E1C00D458F0 /* CourseClassCollectionViewCell.swift */; };
+		F8D2461C1E5F8E1D00D458F0 /* CourseClassCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8D245F31E5F8E1C00D458F0 /* CourseClassCollectionViewCell.xib */; };
+		F8D2461D1E5F8E1D00D458F0 /* CourseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D245F41E5F8E1C00D458F0 /* CourseTableViewCell.swift */; };
+		F8D2461E1E5F8E1D00D458F0 /* CourseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8D245F51E5F8E1C00D458F0 /* CourseTableViewCell.xib */; };
+		F8D2461F1E5F8E1D00D458F0 /* CreateAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D245F61E5F8E1C00D458F0 /* CreateAccount.swift */; };
+		F8D246201E5F8E1D00D458F0 /* CustomCourseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D245F71E5F8E1C00D458F0 /* CustomCourseCell.swift */; };
+		F8D246211E5F8E1D00D458F0 /* ErrorPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D245F81E5F8E1C00D458F0 /* ErrorPopUp.swift */; };
+		F8D246221E5F8E1D00D458F0 /* FrenchRewardPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D245F91E5F8E1C00D458F0 /* FrenchRewardPage.swift */; };
+		F8D246231E5F8E1D00D458F0 /* FrenchTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D245FA1E5F8E1C00D458F0 /* FrenchTest.swift */; };
+		F8D246241E5F8E1D00D458F0 /* FrenchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D245FB1E5F8E1C00D458F0 /* FrenchView.swift */; };
+		F8D246251E5F8E1D00D458F0 /* FrenchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D245FC1E5F8E1C00D458F0 /* FrenchViewController.swift */; };
+		F8D246261E5F8E1D00D458F0 /* GermanRewardPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D245FD1E5F8E1C00D458F0 /* GermanRewardPage.swift */; };
+		F8D246271E5F8E1D00D458F0 /* GermanTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D245FE1E5F8E1C00D458F0 /* GermanTest.swift */; };
+		F8D246281E5F8E1D00D458F0 /* GermanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D245FF1E5F8E1C00D458F0 /* GermanView.swift */; };
+		F8D2462A1E5F8E1D00D458F0 /* GermanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D246011E5F8E1C00D458F0 /* GermanViewController.swift */; };
+		F8D2462B1E5F8E1D00D458F0 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D246021E5F8E1C00D458F0 /* LoginPage.swift */; };
+		F8D2462C1E5F8E1D00D458F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8D246031E5F8E1C00D458F0 /* Main.storyboard */; };
+		F8D2462D1E5F8E1D00D458F0 /* ralyanEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D246041E5F8E1D00D458F0 /* ralyanEditor.swift */; };
+		F8D2462E1E5F8E1D00D458F0 /* RalyanRewardPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D246051E5F8E1D00D458F0 /* RalyanRewardPage.swift */; };
+		F8D2462F1E5F8E1D00D458F0 /* RalyanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D246061E5F8E1D00D458F0 /* RalyanViewController.swift */; };
+		F8D246301E5F8E1D00D458F0 /* RalyasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D246071E5F8E1D00D458F0 /* RalyasView.swift */; };
+		F8D246311E5F8E1D00D458F0 /* RewardPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D246081E5F8E1D00D458F0 /* RewardPage.swift */; };
+		F8D246321E5F8E1D00D458F0 /* UnlockPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D246091E5F8E1D00D458F0 /* UnlockPopUp.swift */; };
+		F8D246331E5F8E1D00D458F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D2460A1E5F8E1D00D458F0 /* ViewController.swift */; };
+		F8F453801E550BF900CD3A24 /* Ralyan.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F8F453791E550BF900CD3A24 /* Ralyan.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,15 +74,40 @@
 			remoteGlobalIDString = F85F3C761E4528BB00E0EC03;
 			remoteInfo = LangApp;
 		};
+		F8F4537E1E550BF900CD3A24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F85F3C6F1E4528BB00E0EC03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8F453781E550BF900CD3A24;
+			remoteInfo = Ralyan;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F8F453841E550BF900CD3A24 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F8F453801E550BF900CD3A24 /* Ralyan.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		2AE6723FC0EDD30626CB7FD8 /* Pods_LangApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LangApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5748896EBBAAD20A01FC2F81 /* Pods-LangAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LangAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LangAppUITests/Pods-LangAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6779E1266B15E57512301D47 /* Pods-LangAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LangAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LangAppTests/Pods-LangAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		A7ED0A77A21C87853D495031 /* Pods_LangAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LangAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9219E4AA9FB41D56EE01D49 /* Pods-LangApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LangApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LangApp/Pods-LangApp.debug.xcconfig"; sourceTree = "<group>"; };
+		E43A9162036F68A957CB9A88 /* Pods-LangAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LangAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LangAppUITests/Pods-LangAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E49ACD2C4DA25DA08F7B5409 /* Pods-LangAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LangAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LangAppTests/Pods-LangAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E7A5DCD9EBC165A9DA3E9F7E /* Pods_LangAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LangAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F85F3C771E4528BB00E0EC03 /* LangApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LangApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F85F3C7A1E4528BB00E0EC03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F85F3C7C1E4528BB00E0EC03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F85F3C7F1E4528BB00E0EC03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F85F3C811E4528BB00E0EC03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F85F3C841E4528BB00E0EC03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F85F3C861E4528BB00E0EC03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F85F3C8B1E4528BB00E0EC03 /* LangAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LangAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F85F3C8F1E4528BB00E0EC03 /* LangAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LangAppTests.swift; sourceTree = "<group>"; };
@@ -47,6 +115,51 @@
 		F85F3C961E4528BB00E0EC03 /* LangAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LangAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F85F3C9A1E4528BB00E0EC03 /* LangAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LangAppUITests.swift; sourceTree = "<group>"; };
 		F85F3C9C1E4528BB00E0EC03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8762F6F1E55115A00F7563C /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
+		F8762F711E55132500F7563C /* Ralyan.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ralyan.ttf; path = Fonts/Ralyan.ttf; sourceTree = "<group>"; };
+		F897AF781E4C1BE300172136 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F8D245E21E5F8E1C00D458F0 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F8D245E31E5F8E1C00D458F0 /* BasicChinese.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicChinese.swift; sourceTree = "<group>"; };
+		F8D245E41E5F8E1C00D458F0 /* BasicFrench.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicFrench.swift; sourceTree = "<group>"; };
+		F8D245E51E5F8E1C00D458F0 /* BasicGerman.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicGerman.swift; sourceTree = "<group>"; };
+		F8D245E61E5F8E1C00D458F0 /* BasicRalyan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicRalyan.swift; sourceTree = "<group>"; };
+		F8D245E71E5F8E1C00D458F0 /* bg1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bg1.swift; sourceTree = "<group>"; };
+		F8D245E81E5F8E1C00D458F0 /* bg2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bg2.swift; sourceTree = "<group>"; };
+		F8D245E91E5F8E1C00D458F0 /* bg3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bg3.swift; sourceTree = "<group>"; };
+		F8D245EA1E5F8E1C00D458F0 /* br1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = br1.swift; sourceTree = "<group>"; };
+		F8D245EB1E5F8E1C00D458F0 /* br2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = br2.swift; sourceTree = "<group>"; };
+		F8D245EC1E5F8E1C00D458F0 /* br3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = br3.swift; sourceTree = "<group>"; };
+		F8D245ED1E5F8E1C00D458F0 /* br4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = br4.swift; sourceTree = "<group>"; };
+		F8D245EE1E5F8E1C00D458F0 /* br5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = br5.swift; sourceTree = "<group>"; };
+		F8D245EF1E5F8E1C00D458F0 /* ChineseRewardPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChineseRewardPage.swift; sourceTree = "<group>"; };
+		F8D245F01E5F8E1C00D458F0 /* ChineseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChineseView.swift; sourceTree = "<group>"; };
+		F8D245F11E5F8E1C00D458F0 /* ChineseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChineseViewController.swift; sourceTree = "<group>"; };
+		F8D245F21E5F8E1C00D458F0 /* CourseClassCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseClassCollectionViewCell.swift; sourceTree = "<group>"; };
+		F8D245F31E5F8E1C00D458F0 /* CourseClassCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CourseClassCollectionViewCell.xib; sourceTree = "<group>"; };
+		F8D245F41E5F8E1C00D458F0 /* CourseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseTableViewCell.swift; sourceTree = "<group>"; };
+		F8D245F51E5F8E1C00D458F0 /* CourseTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CourseTableViewCell.xib; sourceTree = "<group>"; };
+		F8D245F61E5F8E1C00D458F0 /* CreateAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccount.swift; sourceTree = "<group>"; };
+		F8D245F71E5F8E1C00D458F0 /* CustomCourseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCourseCell.swift; sourceTree = "<group>"; };
+		F8D245F81E5F8E1C00D458F0 /* ErrorPopUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorPopUp.swift; sourceTree = "<group>"; };
+		F8D245F91E5F8E1C00D458F0 /* FrenchRewardPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrenchRewardPage.swift; sourceTree = "<group>"; };
+		F8D245FA1E5F8E1C00D458F0 /* FrenchTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrenchTest.swift; sourceTree = "<group>"; };
+		F8D245FB1E5F8E1C00D458F0 /* FrenchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrenchView.swift; sourceTree = "<group>"; };
+		F8D245FC1E5F8E1C00D458F0 /* FrenchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrenchViewController.swift; sourceTree = "<group>"; };
+		F8D245FD1E5F8E1C00D458F0 /* GermanRewardPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GermanRewardPage.swift; sourceTree = "<group>"; };
+		F8D245FE1E5F8E1C00D458F0 /* GermanTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GermanTest.swift; sourceTree = "<group>"; };
+		F8D245FF1E5F8E1C00D458F0 /* GermanView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GermanView.swift; sourceTree = "<group>"; };
+		F8D246011E5F8E1C00D458F0 /* GermanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GermanViewController.swift; sourceTree = "<group>"; };
+		F8D246021E5F8E1C00D458F0 /* LoginPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		F8D246031E5F8E1C00D458F0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F8D246041E5F8E1D00D458F0 /* ralyanEditor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ralyanEditor.swift; sourceTree = "<group>"; };
+		F8D246051E5F8E1D00D458F0 /* RalyanRewardPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RalyanRewardPage.swift; sourceTree = "<group>"; };
+		F8D246061E5F8E1D00D458F0 /* RalyanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RalyanViewController.swift; sourceTree = "<group>"; };
+		F8D246071E5F8E1D00D458F0 /* RalyasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RalyasView.swift; sourceTree = "<group>"; };
+		F8D246081E5F8E1D00D458F0 /* RewardPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RewardPage.swift; sourceTree = "<group>"; };
+		F8D246091E5F8E1D00D458F0 /* UnlockPopUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnlockPopUp.swift; sourceTree = "<group>"; };
+		F8D2460A1E5F8E1D00D458F0 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F8F453791E550BF900CD3A24 /* Ralyan.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Ralyan.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD02DBCCA191030D16F4D8E /* Pods-LangApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LangApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-LangApp/Pods-LangApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +167,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01AD7AC404E84A6DE78AC777 /* Pods_LangApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,10 +175,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4904067A62476664029DED0C /* Pods_LangAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F85F3C931E4528BB00E0EC03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EE2B885C2997BAF9DCB9ED2 /* Pods_LangAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8F453761E550BF900CD3A24 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,6 +197,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		532BC30D501220D4406AA111 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A9219E4AA9FB41D56EE01D49 /* Pods-LangApp.debug.xcconfig */,
+				FAD02DBCCA191030D16F4D8E /* Pods-LangApp.release.xcconfig */,
+				E49ACD2C4DA25DA08F7B5409 /* Pods-LangAppTests.debug.xcconfig */,
+				6779E1266B15E57512301D47 /* Pods-LangAppTests.release.xcconfig */,
+				5748896EBBAAD20A01FC2F81 /* Pods-LangAppUITests.debug.xcconfig */,
+				E43A9162036F68A957CB9A88 /* Pods-LangAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		900B18F484965ED8F734E68B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AE6723FC0EDD30626CB7FD8 /* Pods_LangApp.framework */,
+				A7ED0A77A21C87853D495031 /* Pods_LangAppTests.framework */,
+				E7A5DCD9EBC165A9DA3E9F7E /* Pods_LangAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F85F3C6E1E4528BB00E0EC03 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +227,8 @@
 				F85F3C8E1E4528BB00E0EC03 /* LangAppTests */,
 				F85F3C991E4528BB00E0EC03 /* LangAppUITests */,
 				F85F3C781E4528BB00E0EC03 /* Products */,
+				532BC30D501220D4406AA111 /* Pods */,
+				900B18F484965ED8F734E68B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +238,7 @@
 				F85F3C771E4528BB00E0EC03 /* LangApp.app */,
 				F85F3C8B1E4528BB00E0EC03 /* LangAppTests.xctest */,
 				F85F3C961E4528BB00E0EC03 /* LangAppUITests.xctest */,
+				F8F453791E550BF900CD3A24 /* Ralyan.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,12 +246,51 @@
 		F85F3C791E4528BB00E0EC03 /* LangApp */ = {
 			isa = PBXGroup;
 			children = (
-				F85F3C7A1E4528BB00E0EC03 /* AppDelegate.swift */,
-				F85F3C7C1E4528BB00E0EC03 /* ViewController.swift */,
-				F85F3C7E1E4528BB00E0EC03 /* Main.storyboard */,
+				F8762F6F1E55115A00F7563C /* Fonts */,
+				F8762F711E55132500F7563C /* Ralyan.ttf */,
+				F8D245E21E5F8E1C00D458F0 /* AppDelegate.swift */,
+				F8D245E31E5F8E1C00D458F0 /* BasicChinese.swift */,
+				F8D245E41E5F8E1C00D458F0 /* BasicFrench.swift */,
+				F8D245E51E5F8E1C00D458F0 /* BasicGerman.swift */,
+				F8D245E61E5F8E1C00D458F0 /* BasicRalyan.swift */,
+				F8D245E71E5F8E1C00D458F0 /* bg1.swift */,
+				F8D245E81E5F8E1C00D458F0 /* bg2.swift */,
+				F8D245E91E5F8E1C00D458F0 /* bg3.swift */,
+				F8D245EA1E5F8E1C00D458F0 /* br1.swift */,
+				F8D245EB1E5F8E1C00D458F0 /* br2.swift */,
+				F8D245EC1E5F8E1C00D458F0 /* br3.swift */,
+				F8D245ED1E5F8E1C00D458F0 /* br4.swift */,
+				F8D245EE1E5F8E1C00D458F0 /* br5.swift */,
+				F8D245EF1E5F8E1C00D458F0 /* ChineseRewardPage.swift */,
+				F8D245F01E5F8E1C00D458F0 /* ChineseView.swift */,
+				F8D245F11E5F8E1C00D458F0 /* ChineseViewController.swift */,
+				F8D245F21E5F8E1C00D458F0 /* CourseClassCollectionViewCell.swift */,
+				F8D245F31E5F8E1C00D458F0 /* CourseClassCollectionViewCell.xib */,
+				F8D245F41E5F8E1C00D458F0 /* CourseTableViewCell.swift */,
+				F8D245F51E5F8E1C00D458F0 /* CourseTableViewCell.xib */,
+				F8D245F61E5F8E1C00D458F0 /* CreateAccount.swift */,
+				F8D245F71E5F8E1C00D458F0 /* CustomCourseCell.swift */,
+				F8D245F81E5F8E1C00D458F0 /* ErrorPopUp.swift */,
+				F8D245F91E5F8E1C00D458F0 /* FrenchRewardPage.swift */,
+				F8D245FA1E5F8E1C00D458F0 /* FrenchTest.swift */,
+				F8D245FB1E5F8E1C00D458F0 /* FrenchView.swift */,
+				F8D245FC1E5F8E1C00D458F0 /* FrenchViewController.swift */,
+				F8D245FD1E5F8E1C00D458F0 /* GermanRewardPage.swift */,
+				F8D245FE1E5F8E1C00D458F0 /* GermanTest.swift */,
+				F8D245FF1E5F8E1C00D458F0 /* GermanView.swift */,
+				F8D246011E5F8E1C00D458F0 /* GermanViewController.swift */,
+				F8D246021E5F8E1C00D458F0 /* LoginPage.swift */,
+				F8D246031E5F8E1C00D458F0 /* Main.storyboard */,
+				F8D246041E5F8E1D00D458F0 /* ralyanEditor.swift */,
+				F8D246051E5F8E1D00D458F0 /* RalyanRewardPage.swift */,
+				F8D246061E5F8E1D00D458F0 /* RalyanViewController.swift */,
+				F8D246071E5F8E1D00D458F0 /* RalyasView.swift */,
+				F8D246081E5F8E1D00D458F0 /* RewardPage.swift */,
+				F8D246091E5F8E1D00D458F0 /* UnlockPopUp.swift */,
+				F8D2460A1E5F8E1D00D458F0 /* ViewController.swift */,
 				F85F3C811E4528BB00E0EC03 /* Assets.xcassets */,
-				F85F3C831E4528BB00E0EC03 /* LaunchScreen.storyboard */,
 				F85F3C861E4528BB00E0EC03 /* Info.plist */,
+				F897AF781E4C1BE300172136 /* GoogleService-Info.plist */,
 			);
 			path = LangApp;
 			sourceTree = "<group>";
@@ -132,13 +320,18 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F85F3C9F1E4528BB00E0EC03 /* Build configuration list for PBXNativeTarget "LangApp" */;
 			buildPhases = (
+				D0CD1E2282CD4A0575A5C7DD /* [CP] Check Pods Manifest.lock */,
 				F85F3C731E4528BB00E0EC03 /* Sources */,
 				F85F3C741E4528BB00E0EC03 /* Frameworks */,
 				F85F3C751E4528BB00E0EC03 /* Resources */,
+				7B6743C54B67591B3D2153C3 /* [CP] Embed Pods Frameworks */,
+				CB9FD2FD3FA0B95AADC23D12 /* [CP] Copy Pods Resources */,
+				F8F453841E550BF900CD3A24 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F8F4537F1E550BF900CD3A24 /* PBXTargetDependency */,
 			);
 			name = LangApp;
 			productName = LangApp;
@@ -149,9 +342,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F85F3CA21E4528BB00E0EC03 /* Build configuration list for PBXNativeTarget "LangAppTests" */;
 			buildPhases = (
+				BEDF095B52D0E5D5A0BCF741 /* [CP] Check Pods Manifest.lock */,
 				F85F3C871E4528BB00E0EC03 /* Sources */,
 				F85F3C881E4528BB00E0EC03 /* Frameworks */,
 				F85F3C891E4528BB00E0EC03 /* Resources */,
+				D8C3A545C486F7BA1E1E364E /* [CP] Embed Pods Frameworks */,
+				597D8B78D81EB58BB27C15FD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +363,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F85F3CA51E4528BB00E0EC03 /* Build configuration list for PBXNativeTarget "LangAppUITests" */;
 			buildPhases = (
+				CF13243C8EA616DD60866455 /* [CP] Check Pods Manifest.lock */,
 				F85F3C921E4528BB00E0EC03 /* Sources */,
 				F85F3C931E4528BB00E0EC03 /* Frameworks */,
 				F85F3C941E4528BB00E0EC03 /* Resources */,
+				403ADBE8CB9718E03960B001 /* [CP] Embed Pods Frameworks */,
+				488AB3391A026F8FDF899E64 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -180,6 +379,23 @@
 			productName = LangAppUITests;
 			productReference = F85F3C961E4528BB00E0EC03 /* LangAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		F8F453781E550BF900CD3A24 /* Ralyan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8F453811E550BF900CD3A24 /* Build configuration list for PBXNativeTarget "Ralyan" */;
+			buildPhases = (
+				F8F453751E550BF900CD3A24 /* Sources */,
+				F8F453761E550BF900CD3A24 /* Frameworks */,
+				F8F453771E550BF900CD3A24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ralyan;
+			productName = Ralyan;
+			productReference = F8F453791E550BF900CD3A24 /* Ralyan.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -194,6 +410,7 @@
 					F85F3C761E4528BB00E0EC03 = {
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = 9DN2S7V66Y;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					F85F3C8A1E4528BB00E0EC03 = {
@@ -207,6 +424,11 @@
 						DevelopmentTeam = 9DN2S7V66Y;
 						ProvisioningStyle = Automatic;
 						TestTargetID = F85F3C761E4528BB00E0EC03;
+					};
+					F8F453781E550BF900CD3A24 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 9DN2S7V66Y;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -226,6 +448,7 @@
 				F85F3C761E4528BB00E0EC03 /* LangApp */,
 				F85F3C8A1E4528BB00E0EC03 /* LangAppTests */,
 				F85F3C951E4528BB00E0EC03 /* LangAppUITests */,
+				F8F453781E550BF900CD3A24 /* Ralyan */,
 			);
 		};
 /* End PBXProject section */
@@ -235,9 +458,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F85F3C851E4528BB00E0EC03 /* LaunchScreen.storyboard in Resources */,
+				F8D2461E1E5F8E1D00D458F0 /* CourseTableViewCell.xib in Resources */,
+				F8762F721E55132500F7563C /* Ralyan.ttf in Resources */,
+				F8D2462C1E5F8E1D00D458F0 /* Main.storyboard in Resources */,
+				F8D2461C1E5F8E1D00D458F0 /* CourseClassCollectionViewCell.xib in Resources */,
+				F8762F701E55115A00F7563C /* Fonts in Resources */,
 				F85F3C821E4528BB00E0EC03 /* Assets.xcassets in Resources */,
-				F85F3C801E4528BB00E0EC03 /* Main.storyboard in Resources */,
+				F897AF791E4C1BE300172136 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,15 +482,195 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F8F453771E550BF900CD3A24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		403ADBE8CB9718E03960B001 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LangAppUITests/Pods-LangAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		488AB3391A026F8FDF899E64 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LangAppUITests/Pods-LangAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		597D8B78D81EB58BB27C15FD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LangAppTests/Pods-LangAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B6743C54B67591B3D2153C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LangApp/Pods-LangApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEDF095B52D0E5D5A0BCF741 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CB9FD2FD3FA0B95AADC23D12 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LangApp/Pods-LangApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF13243C8EA616DD60866455 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D0CD1E2282CD4A0575A5C7DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D8C3A545C486F7BA1E1E364E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LangAppTests/Pods-LangAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F85F3C731E4528BB00E0EC03 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F85F3C7D1E4528BB00E0EC03 /* ViewController.swift in Sources */,
-				F85F3C7B1E4528BB00E0EC03 /* AppDelegate.swift in Sources */,
+				F8D246121E5F8E1D00D458F0 /* bg3.swift in Sources */,
+				F8D246181E5F8E1D00D458F0 /* ChineseRewardPage.swift in Sources */,
+				F8D246101E5F8E1D00D458F0 /* bg1.swift in Sources */,
+				F8D2462A1E5F8E1D00D458F0 /* GermanViewController.swift in Sources */,
+				F8D246141E5F8E1D00D458F0 /* br2.swift in Sources */,
+				F8D246271E5F8E1D00D458F0 /* GermanTest.swift in Sources */,
+				F8D246241E5F8E1D00D458F0 /* FrenchView.swift in Sources */,
+				F8D246251E5F8E1D00D458F0 /* FrenchViewController.swift in Sources */,
+				F8D2461A1E5F8E1D00D458F0 /* ChineseViewController.swift in Sources */,
+				F8D246281E5F8E1D00D458F0 /* GermanView.swift in Sources */,
+				F8D246131E5F8E1D00D458F0 /* br1.swift in Sources */,
+				F8D2461B1E5F8E1D00D458F0 /* CourseClassCollectionViewCell.swift in Sources */,
+				F8D246171E5F8E1D00D458F0 /* br5.swift in Sources */,
+				F8D2460E1E5F8E1D00D458F0 /* BasicGerman.swift in Sources */,
+				F8D2460F1E5F8E1D00D458F0 /* BasicRalyan.swift in Sources */,
+				F8D246191E5F8E1D00D458F0 /* ChineseView.swift in Sources */,
+				F8D246111E5F8E1D00D458F0 /* bg2.swift in Sources */,
+				F8D246151E5F8E1D00D458F0 /* br3.swift in Sources */,
+				F8D246331E5F8E1D00D458F0 /* ViewController.swift in Sources */,
+				F8D2462F1E5F8E1D00D458F0 /* RalyanViewController.swift in Sources */,
+				F8D246261E5F8E1D00D458F0 /* GermanRewardPage.swift in Sources */,
+				F8D246321E5F8E1D00D458F0 /* UnlockPopUp.swift in Sources */,
+				F8D2462D1E5F8E1D00D458F0 /* ralyanEditor.swift in Sources */,
+				F8D246161E5F8E1D00D458F0 /* br4.swift in Sources */,
+				F8D246211E5F8E1D00D458F0 /* ErrorPopUp.swift in Sources */,
+				F8D2461D1E5F8E1D00D458F0 /* CourseTableViewCell.swift in Sources */,
+				F8D2460D1E5F8E1D00D458F0 /* BasicFrench.swift in Sources */,
+				F8D2460C1E5F8E1D00D458F0 /* BasicChinese.swift in Sources */,
+				F8D246201E5F8E1D00D458F0 /* CustomCourseCell.swift in Sources */,
+				F8D2462E1E5F8E1D00D458F0 /* RalyanRewardPage.swift in Sources */,
+				F8D246301E5F8E1D00D458F0 /* RalyasView.swift in Sources */,
+				F8D2460B1E5F8E1D00D458F0 /* AppDelegate.swift in Sources */,
+				F8D2461F1E5F8E1D00D458F0 /* CreateAccount.swift in Sources */,
+				F8D246221E5F8E1D00D458F0 /* FrenchRewardPage.swift in Sources */,
+				F8D2462B1E5F8E1D00D458F0 /* LoginPage.swift in Sources */,
+				F8D246311E5F8E1D00D458F0 /* RewardPage.swift in Sources */,
+				F8D246231E5F8E1D00D458F0 /* FrenchTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +690,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F8F453751E550BF900CD3A24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -296,26 +710,12 @@
 			target = F85F3C761E4528BB00E0EC03 /* LangApp */;
 			targetProxy = F85F3C971E4528BB00E0EC03 /* PBXContainerItemProxy */;
 		};
+		F8F4537F1E550BF900CD3A24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8F453781E550BF900CD3A24 /* Ralyan */;
+			targetProxy = F8F4537E1E550BF900CD3A24 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		F85F3C7E1E4528BB00E0EC03 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F85F3C7F1E4528BB00E0EC03 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F85F3C831E4528BB00E0EC03 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F85F3C841E4528BB00E0EC03 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F85F3C9D1E4528BB00E0EC03 /* Debug */ = {
@@ -413,32 +813,42 @@
 		};
 		F85F3CA01E4528BB00E0EC03 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9219E4AA9FB41D56EE01D49 /* Pods-LangApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 9DN2S7V66Y;
 				INFOPLIST_FILE = LangApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = saltstudios.LangApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		F85F3CA11E4528BB00E0EC03 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAD02DBCCA191030D16F4D8E /* Pods-LangApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 9DN2S7V66Y;
 				INFOPLIST_FILE = LangApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = saltstudios.LangApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		F85F3CA31E4528BB00E0EC03 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E49ACD2C4DA25DA08F7B5409 /* Pods-LangAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +864,7 @@
 		};
 		F85F3CA41E4528BB00E0EC03 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6779E1266B15E57512301D47 /* Pods-LangAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +880,7 @@
 		};
 		F85F3CA61E4528BB00E0EC03 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5748896EBBAAD20A01FC2F81 /* Pods-LangAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 9DN2S7V66Y;
@@ -483,6 +895,7 @@
 		};
 		F85F3CA71E4528BB00E0EC03 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E43A9162036F68A957CB9A88 /* Pods-LangAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 9DN2S7V66Y;
@@ -492,6 +905,32 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = LangApp;
+			};
+			name = Release;
+		};
+		F8F453821E550BF900CD3A24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9DN2S7V66Y;
+				INFOPLIST_FILE = Ralyan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = saltstudios.LangApp.Ralyan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F8F453831E550BF900CD3A24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9DN2S7V66Y;
+				INFOPLIST_FILE = Ralyan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = saltstudios.LangApp.Ralyan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -514,6 +953,7 @@
 				F85F3CA11E4528BB00E0EC03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F85F3CA21E4528BB00E0EC03 /* Build configuration list for PBXNativeTarget "LangAppTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +962,7 @@
 				F85F3CA41E4528BB00E0EC03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F85F3CA51E4528BB00E0EC03 /* Build configuration list for PBXNativeTarget "LangAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +971,16 @@
 				F85F3CA71E4528BB00E0EC03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8F453811E550BF900CD3A24 /* Build configuration list for PBXNativeTarget "Ralyan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8F453821E550BF900CD3A24 /* Debug */,
+				F8F453831E550BF900CD3A24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
